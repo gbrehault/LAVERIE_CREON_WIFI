@@ -10,7 +10,7 @@ export default function Home() {
     alert("Code copié !");
   };
   return (
-    <div className="flex flex-col gap-2 min-h-screen items-center justify-center bg-background p-6">
+    <div className="flex flex-col gap-2 min-h-screen items-center justify-center bg-background bg-[url(/assets/FOND_SITE_APP_WIFI.png)] bg-center bg-cover bg-no-repeat p-6">
       <Image
         src="/assets/LOGO_BULLES_DE_PRESTIGE_WHITE.png"
         alt="Bulles de Prestige Logo"
