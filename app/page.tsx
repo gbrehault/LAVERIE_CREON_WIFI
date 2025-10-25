@@ -27,14 +27,15 @@ export default function Home() {
   </button>
 </div>
       </div>
-      <div>
-        <p className="text-2xl font-medium">Voici nos réseaux</p>
-        <div className="flex gap-4 justify-center mt-2">
+      <p className="text-2xl font-medium">Voici nos réseaux</p>
+      <div className="w-1/2 flex items-stretch justify-center bg-white rounded-4xl px-2 py-2 shadow-md">
+        
+        <div className="flex gap-10 justify-center">
           <a href="https://www.instagram.com/laverie_creon/" target="_blank">
-        <InstagramLogoIcon size={40} />
+        <InstagramLogoIcon size={40} color="#0878a7" />
       </a>
       <a href="https://laverie-creon.fr/" target="_blank">
-        <GlobeIcon size={40} />
+        <GlobeIcon size={40} color="#0878a7" />
         </a>
         </div>
       </div>
