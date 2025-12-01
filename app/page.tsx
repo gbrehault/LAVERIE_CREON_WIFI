@@ -20,6 +20,7 @@ export default function Home() {
       <div className="flex flex-col text-center">
         <h1 className="font-sans text-2xl">Bienvenue dans la laverie Bulles de Prestige</h1>
         <p>Voici le code wifi pour vous connecter :</p>
+        <p>Nom WIFI : <b>box-Laverie-Bulles-De-prestige</b></p>
         <div className="bg-white flex items-center justify-between rounded-4xl w-full px-5 py-2 my-4">
           <p className="text-background font-semibold">Bullesdeprestige2025</p>
           <button onClick={handleCopy}>
@@ -70,3 +71,4 @@ export default function Home() {
     </div>
   );
 }
+
