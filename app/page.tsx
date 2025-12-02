@@ -21,7 +21,7 @@ export default function Home() {
         <h1 className="font-sans text-4xl py-2 font-bold">Bienvenue</h1>
         <p>Nom WIFI : <b>box-Laverie-Bulles-De-prestige</b></p>
         <div className="mt-4">
-          <p><b>Mots de passe :</b></p>
+          <p><b>Mot de passe :</b></p>
           <div className="bg-white flex items-center justify-between rounded-4xl w-full px-5 py-2 my-4">
             <p className="text-background font-semibold">Bullesdeprestige2025</p>
             <button onClick={handleCopy}>
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="text-2xl font-medium">Voici nos réseaux</p>
+      <p className="text-2xl font-medium">Nos réseaux</p>
       <div className="flex items-center justify-center gap-3 px-5 py-2.5 my-4 rounded-full font-medium shadow-md hover:opacity-90 transition-all bg-white text-background">
 
         <div className="flex gap-10 justify-center">
