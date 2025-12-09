@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { InstagramLogoIcon, GlobeIcon, CopyIcon } from "@phosphor-icons/react";
+import { InstagramLogoIcon, GlobeIcon, CopyIcon, FacebookLogoIcon, FacebookLogo } from "@phosphor-icons/react";
 
 export default function Home() {
   const code = "Bullesdeprestige2025";
@@ -18,16 +18,19 @@ export default function Home() {
         height={300}
       />
       <div className="flex flex-col text-center">
-        <h1 className="font-sans text-2xl">Bienvenue dans la laverie Bulles de Prestige</h1>
-        <p>Voici le code wifi pour vous connecter :</p>
-        <div className="bg-white flex items-center justify-between rounded-4xl w-full px-5 py-2 my-4">
-          <p className="text-background font-semibold">Bullesdeprestige2025</p>
-          <button onClick={handleCopy}>
-            <CopyIcon size={20} className="fill-background hover:scale-110 transition-transform" />
-          </button>
+        <h1 className="font-sans text-4xl py-2 font-bold">Bienvenue</h1>
+        <p>Nom WIFI : <b>box-Laverie-Bulles-De-prestige</b></p>
+        <div className="mt-4">
+          <p><b>Mot de passe :</b></p>
+          <div className="bg-white flex items-center justify-between rounded-4xl w-full px-5 py-2 my-4">
+            <p className="text-background font-semibold">Bullesdeprestige2025</p>
+            <button onClick={handleCopy}>
+              <CopyIcon size={20} className="fill-background hover:scale-110 transition-transform" />
+            </button>
+          </div>
         </div>
       </div>
-      <p className="text-2xl font-medium">Voici nos réseaux</p>
+      <p className="text-2xl font-medium">Nos réseaux</p>
       <div className="flex items-center justify-center gap-3 px-5 py-2.5 my-4 rounded-full font-medium shadow-md hover:opacity-90 transition-all bg-white text-background">
 
         <div className="flex gap-10 justify-center">
@@ -36,6 +39,9 @@ export default function Home() {
           </a>
           <a href="https://laverie-creon.fr/" target="_blank">
             <GlobeIcon size={30} color="#0878a7" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61573853030863#" target="_blank">
+            <FacebookLogoIcon size={30} color="#0878a7" />
           </a>
         </div>
       </div>
@@ -70,3 +76,4 @@ export default function Home() {
     </div>
   );
 }
+
