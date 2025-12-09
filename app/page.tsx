@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-2 align-center justify-center">
         <a className="flex items-center justify-center gap-3 px-5 py-2.5 my-4 rounded-full font-medium shadow-md hover:opacity-90 transition-all bg-white text-background"
-          href="https://share.google/LXPZEbZr4hNIOPrTg" target="_blank">
+          href="https://g.page/r/CWtrHIpU8s30EAE/review" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 48 48"
